@@ -1,4 +1,10 @@
 {
-  "name": "linkinstagra-tiktoklineman"
+  "version": 2,
+  "name": "linkinstagra-tiktoklineman",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ]
 }
-
